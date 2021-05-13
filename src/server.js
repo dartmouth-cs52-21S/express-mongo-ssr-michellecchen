@@ -12,6 +12,7 @@ mongoose.connect(mongoURI).then(() => {
 }).catch((err) => {
   console.log('error: could not connect to db:', err);
 });
+
 // initialize
 const app = express();
 
